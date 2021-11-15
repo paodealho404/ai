@@ -1,18 +1,11 @@
 # Inteligência Artificial - Aydano Machado
-
-  ![IA](https://github.com/paodealho404/ai/blob/main/ia.jpg)
+  <p align="center">
+    <img width="400" height="250" src="https://github.com/paodealho404/ai/blob/main/ia.jpg">
+  </p>
 
     - Disciplina de Inteligência Artificial, ministrada pelo Prof. Aydano Machado
 
 ---
-
-## Requisitos Mínimos para Execução
-    - Para executar os algoritmos é necessário ter previamente instalado e configurado o GCC (Compilador para linguagem C).
-
-## Para informações sobre como executar: 
-    - Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo de compilar e executar o código.
-
-
 - [Inteligência Artificial - Aydano Machado](#inteligência-artificial---aydano-machado)
   - [Requisitos Mínimos para Execução](#requisitos-mínimos-para-execução)
   - [Para informações sobre como executar:](#para-informações-sobre-como-executar)
@@ -21,6 +14,18 @@
 
 ---
 
+## Requisitos Mínimos para Execução
+    Para executar os algoritmos é necessário 
+    ter previamente instalado e configurado o GCC 
+    (Compilador para linguagem C).
+[Voltar ao topo](#Inicio)
+## Para informações sobre como executar: 
+    Dirija-se ao subdiretório do problema 
+    desejado, lá haverá mais informações sobre 
+    o processo de compilar e executar o código.
+[Voltar ao topo](#Inicio)
+
+---
 ## Problema dos Missionários
     Três missionários e três canibais estão em um lado do rio, juntamente com um
     barco que pode conter uma ou duas pessoas. Descubra um meio de fazer todos
