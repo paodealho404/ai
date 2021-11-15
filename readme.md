@@ -1,7 +1,7 @@
 # Inteligência Artificial - Aydano Machado
 
 
-    ![IA](https://github.com/paodealho404/ai/blob/main/ia.jpg)
+  ![IA](https://github.com/paodealho404/ai/blob/main/ia.jpg)
 
     - Disciplina de Inteligência Artificial, ministrada pelo Prof. Aydano Machado
 
