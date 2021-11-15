@@ -10,8 +10,8 @@
     - Para executar os algoritmos é necessário ter previamente instalado e configurado o GCC (Compilador para linguagem C).
 
 ## Para informações sobre como executar: 
-    - Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo de compilar
-e executar o código.
+    - Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo de compilar e executar o código.
+
 
 - [Inteligência Artificial - Aydano Machado](#inteligência-artificial---aydano-machado)
   - [Requisitos Mínimos para Execução](#requisitos-mínimos-para-execução)
@@ -22,7 +22,7 @@ e executar o código.
 ---
 
 ## Problema dos Missionários
-      Três missionários e três canibais estão em um lado do rio, juntamente com um
+    Três missionários e três canibais estão em um lado do rio, juntamente com um
     barco que pode conter uma ou duas pessoas. Descubra um meio de fazer todos
     atravessarem o rio, sem deixar que um grupo de missionários de um lado fique em
     número menor que o número de canibais nesse lado do rio. Esse problema é famoso
