@@ -1,6 +1,6 @@
 # Inicio
 
-![Project Image](https://github.com/paodealho404/ia/ia.png)
+![Project Image](https://github.com/paodealho404/ai/ia.jpg)
 
 
 ---
