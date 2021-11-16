@@ -1,4 +1,9 @@
+# Saída Esperada
+<p align="center">
+    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
+  </p>
 
+[Voltar ao Início](https://github.com/paodealho404/ai/)
 # Execução
   - Requisitos:
     - GCC previamente instalado e configurado.
@@ -12,12 +17,5 @@
     ou, pelo Prompt de Comando:
 
         .\missionario.exe
-
-[Voltar ao Início](https://github.com/paodealho404/ai/)
-
-# Saída Esperada
-<p align="center">
-    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
-  </p>
 
 [Voltar ao Início](https://github.com/paodealho404/ai/)
