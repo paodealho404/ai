@@ -17,7 +17,7 @@
 
 # Saída Esperada
 <p align="center">
-    <img width="400" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
+    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
   </p>
 
 [Voltar ao Início](https://github.com/paodealho404/ai/)
