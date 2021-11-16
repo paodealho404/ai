@@ -19,7 +19,8 @@
     (Compilador para linguagem C).
 [Voltar ao topo](#Inicio)
 ## Para informações sobre como executar: 
-    Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo de compilar e executar o código.
+    Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo 
+    de compilar e executar o código.
 [Voltar ao topo](#Inicio)
 
 ---
