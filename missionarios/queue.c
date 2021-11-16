@@ -214,10 +214,10 @@ short get_boat(state *s){
 }
 void print_transition(state *ori, state *des){
     if(des->ilha_atual==0){
-        printf("Mova %d missionário(os) e %d canibal(is) para a Ilha A\n", abs(des->mis1 - ori->mis1), abs(des->can1 - ori->can1));
+        printf("Mova %d missionario(os) e %d canibal(is) para a Ilha A\n", abs(des->mis1 - ori->mis1), abs(des->can1 - ori->can1));
     }
     else {
-        printf("Mova %d missionário(os) e %d canibal(is) para a Ilha B\n", abs(des->mis2 - ori->mis2), abs(des->can2 - ori->can2));
+        printf("Mova %d missionario(os) e %d canibal(is) para a Ilha B\n", abs(des->mis2 - ori->mis2), abs(des->can2 - ori->can2));
     }
 }
 void generate_path(state *s){

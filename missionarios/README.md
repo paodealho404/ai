@@ -13,5 +13,11 @@
 
         .\missionario.exe
 
+[Voltar ao Início](https://github.com/paodealho404/ai/)
+
+# Saída Esperada
+<p align="center">
+    <img width="400" height="250" src="https://github.com/paodealho404/ai/blob/main/ia.jpg">
+  </p>
 
 [Voltar ao Início](https://github.com/paodealho404/ai/)
