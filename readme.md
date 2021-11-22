@@ -56,7 +56,7 @@
       4 minutos.
     Formule e implemente este problema em termos de estado inicial, estado final,
     operadores e função de avaliação para Busca heurística com A*.
-  - [Solução](https://github.com/paodealho404/ai/tree/main/missionarios)
+  - [Solução](https://github.com/paodealho404/ai/tree/main/paris)
 ---
 ## Informações do Autor
 
