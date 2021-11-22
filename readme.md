@@ -11,6 +11,7 @@
   - [Para informações sobre como executar:](#para-informações-sobre-como-executar)
   - [Problema dos Missionários](#problema-dos-missionários)
   - [Problema dos Metrôs de Paris](#problema-dos-metrôs-de-paris)
+  - [- Solução](#--solução)
   - [Informações do Autor](#informações-do-autor)
 
 ---
@@ -55,6 +56,7 @@
       4 minutos.
     Formule e implemente este problema em termos de estado inicial, estado final,
     operadores e função de avaliação para Busca heurística com A*.
+  - [Solução](https://github.com/paodealho404/ai/tree/main/missionarios)
 ---
 ## Informações do Autor
 
