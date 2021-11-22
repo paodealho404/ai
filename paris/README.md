@@ -1,6 +1,6 @@
 # Saída Esperada
 <p align="center">
-    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
+    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/paris/saida.png">
   </p>
 
 [Voltar ao Início](https://github.com/paodealho404/ai/)
@@ -10,7 +10,7 @@
   - Para compilar, digite:
   
         cd ./paris/
-        gcc graph.c queue.c main.c -o paris
+        gcc queue.c graph.c main.c -o paris
   - Para executar, basta chamar pelo arquivo no Terminal:
   
         ./paris

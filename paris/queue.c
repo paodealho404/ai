@@ -145,5 +145,5 @@ void print_path(state *final){
     }
     printf("\n\nTempo de Viagem: %.2f minuto(s)", 2*tmp->g_cost);
     printf("\nQuantidade de Baldeacoes: %d vez(es)", bald);
-    printf("\n\nFim da Viagem !!\n==================================================\n=======================================");
+    printf("\n\nFim da Viagem !!\n==================================================\n==================================================");
 }
