@@ -1,0 +1,21 @@
+# Saída Esperada
+<p align="center">
+    <img width="500" height="250" src="https://github.com/paodealho404/ai/blob/main/missionarios/saida.png">
+  </p>
+
+[Voltar ao Início](https://github.com/paodealho404/ai/)
+# Execução
+  - Requisitos:
+    - GCC previamente instalado e configurado.
+  - Para compilar, digite:
+  
+        cd ./paris/
+        gcc graph.c queue.c main.c -o paris
+  - Para executar, basta chamar pelo arquivo no Terminal:
+  
+        ./paris
+    ou, pelo Prompt de Comando:
+
+        .\paris.exe
+
+[Voltar ao Início](https://github.com/paodealho404/ai/)
