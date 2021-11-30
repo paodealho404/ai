@@ -1,0 +1,12 @@
+typedef struct GRAPH graph;
+typedef struct VERTEX vertex;
+void print_graph(graph *g);
+int is_valid(int *state, graph *vertices);
+void add_vertex(graph *vertices, int source, int destination, int dist);
+graph* create_graph();
+void generate_new_path(int *aux, int ori);
+void print_path(int *v);
+int total_traveled_distance(int *v, graph *g);
+void optimize_solution_operator(int *aux);
+void copy(int *a, int *b);
+int is_done(int *v);
