@@ -1,6 +1,6 @@
 # Saída Esperada
 <p align="center">
-    <img width="500" height="325" src="https://github.com/paodealho404/ai/blob/main/caixeiro/saida.png">
+    <img width="650" height="325" src="https://github.com/paodealho404/ai/blob/main/caixeiro/saida.png">
   </p>
 
 [Voltar ao Início](https://github.com/paodealho404/ai/)
