@@ -3,7 +3,8 @@
 #include <limits.h>
 typedef struct STATE state;
 typedef struct STACK stack;
-
+int valor_min(state *cur, int alpha, int beta);
+int valor_max(state *cur, int alpha, int beta);
 struct STATE
 {
     char game[3][3];
@@ -11,7 +12,6 @@ struct STATE
     state *prev;
     state *next;
 };
-
 struct STACK
 {
     state *top;
@@ -25,25 +25,20 @@ stack* create_stack(){
     new_stack->top = NULL;
     return new_stack;
 }
-state* create_state(state* prev, int turn){
+state* create_state(state* prev){
     state *new_state = (state*)malloc(sizeof(state));
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             if(!prev) 
             {
-                new_state->evaluation = INT_MIN;
                 new_state->game[i][j] = '.';
             }
             else {
                 new_state->game[i][j] = prev->game[i][j];
-                if(turn==0) new_state->evaluation = INT_MIN;
-                else new_state->evaluation = INT_MAX;
-
             }
-        }
-                
+        }   
     }
-    
+    new_state->evaluation = 0;
     new_state->prev = prev;
     new_state->next = NULL;
     return new_state;
@@ -97,11 +92,11 @@ void print_state(state *s){
     }        
     printf("\nEvaluation: %d\n", s->evaluation);
 }
-void generate_next_state(stack *st, state *cur, int turn){
+void generate_next_state(stack *st, state *cur, char c){
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
             if(cur->game[i][j]=='.'){
-                state *new_state = create_state(cur,turn);
+                state *new_state = create_state(cur);
                 change_game(new_state, c, i,j);
                 push(st, new_state);
             }
@@ -124,9 +119,19 @@ int call_next_turn(stack *st, char player, state* cur_state, char max, char min)
     while(!is_empty(st)){
         cur_state = pop(st);
         cur_state->evaluation = evaluate(cur_state,max,min);
-        if(cur_state->evaluation==0){
+
+        
+        if(cur_state->evaluation==0){ // ESTADO INTERMEDIÁRIO
             generate_next_state(st, cur_state, turn, max, min);      
+        } else{ //NÓS FOLHAS
+            if(turn && cur_state->prev->evaluation < cur_state->evaluation){
+                cur_state->prev->evaluation = cur_state->evaluation;
+
+            }   // turn = 1 --> max
+            else
         }
+
+        
         win = cur_state->evaluation;
         if(turn==1) turn= 0;
         else turn = 1;
@@ -163,5 +168,38 @@ void create_game(char player){
     }
 }
 
+int valor_min(state *cur, int alpha, int beta, char ia, char player){
+    int evaluation = evaluate(cur,ia,player);
+    if(evaluation) return evaluation;
+    
+    int v = INT_MAX;
+    stack *next_states = create_stack();
+    generate_next_state(next_states, cur, player);
+    while(!is_empty(next_states)){
+        state *aux = pop(next_states);
+        v = min(v, valor_max(aux, alpha,beta,ia,player));
+        if(v<=alpha) return v;
+        beta = min(beta, v);
+    }
+    return v;
+}
+int valor_max(state *cur, int alpha, int beta, char ia, char player){
+    int evaluation = evaluate(cur,ia,player);
+    if(evaluation) return evaluation;
+    
+    int v = INT_MIN;
+    stack *next_states = create_stack();
+    generate_next_state(next_states, cur, ia);
+    while(!is_empty(next_states)){
+        state *aux = pop(next_states);
+        v = max(v, valor_min(aux, alpha,beta, ia, player));
+        if(v>=beta) return v;
+        alpha = max(alpha, v);
+    }
+    return v;
+}
 
+state* alfa_beta_prunning(state *cur, char ia, char player){
+    int v = valor_max(cur, INT_MIN, INT_MAX, ia, player);
+}
 

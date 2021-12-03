@@ -9,6 +9,6 @@ state* create_state(state* prev);
 int is_empty(stack *s);
 stack* create_stack();
 void change_game(state *s, char c, int i, int j);
-void generate_next_state(stack *st, state *prev, char c);
+void generate_next_state(stack *st, state *cur, char c, int turn);
 void print_stack(stack *s);
 void create_game(char player);
