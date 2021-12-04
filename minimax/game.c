@@ -176,7 +176,7 @@ int call_next_turn(stack *st, char player, state* cur_state, char max, char min)
         win = game_ended(new_turn, max, min);
 
         for(int i=0;i<30;i++) printf("\n");
-        printf("Turno da IA:");
+        printf("Jogada da IA:");
         print_state(new_turn);
         printf("Pressione qualquer tecla para continuar...\n");
         getchar();
@@ -189,10 +189,12 @@ int call_next_turn(stack *st, char player, state* cur_state, char max, char min)
             for(int i=0;i<30;i++) printf("\n");
             printf("Turno do Participante:\n");
             print_state(new_turn);
-            printf("Insira em que linha que deseja jogar: ");
+            printf("Seu Turno:\nInsira em que linha que deseja jogar: ");
             scanf("%d", &i);
+            getchar();
             printf("Insira em que coluna que deseja jogar: ");
             scanf("%d", &j);
+            getchar();
             while(new_turn->game[i-1][j-1]!='.'){
                 for(int i=0;i<30;i++) printf("\n");
                 printf("Posicao ja ocupada, repita o processo\n");
@@ -200,11 +202,18 @@ int call_next_turn(stack *st, char player, state* cur_state, char max, char min)
                 print_state(new_turn);
                 printf("Insira em que linha que deseja jogar: ");
                 scanf("%d", &i);
+                getchar();
                 printf("Insira em que coluna que deseja jogar: ");
                 scanf("%d", &j);
                 getchar();
             }
             change_game(new_turn, min, i-1, j-1);
+            for(int i=0;i<30;i++) printf("\n");
+            printf("Jogada do Participante:");
+            print_state(new_turn);
+            printf("Pressione qualquer tecla para continuar...\n");
+            getchar();
+
             push(st, new_turn);
             win = game_ended(new_turn, max, min);
         } 
@@ -224,8 +233,9 @@ void create_game(char player){
     print_state(cur_state);
     if(player=='X'){
         int i, j;
-        printf("Insira em que linha que deseja jogar: ");
+        printf("\nSeu Turno:\n\nInsira em que linha que deseja jogar: ");
         scanf("%d", &i);
+        getchar();
         printf("Insira em que coluna que deseja jogar: ");
         scanf("%d", &j);
         getchar();
@@ -251,12 +261,18 @@ void create_game(char player){
     {
     case 1:
         printf("\nVitoria da IA (*^ - ^*)\n");
+        printf("Pressione qualquer tecla para continuar...\n");
+        getchar();
         break;
     case -1:
         printf("\nVitória do Jogador (x _ x)\n");
+        printf("Pressione qualquer tecla para continuar...\n");
+        getchar();
         break;
     default:
         printf("\nEmpate (^ ^;)\n");
+        printf("Pressione qualquer tecla para continuar...\n");
+        getchar();
         break;
     };
 }

@@ -3,7 +3,7 @@
 
 int main()
 {
-    for(int i=0;i<40;i++) printf("\n");
+    for(int i=0;i<30;i++) printf("\n");
 
     printf("Jogo da Velha - Versao HARD\n");
     printf("=============================\n\n");
