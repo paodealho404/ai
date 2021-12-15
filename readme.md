@@ -42,7 +42,8 @@
     Implemente e resolva o problema de forma ótima, utilizando um algoritmo de busca
     apropriado. É boa idéia verificar a existência de estados repetidos?
   - [Solução](https://github.com/paodealho404/ai/tree/main/missionarios)
-[Voltar ao topo](#inteligência-artificial---aydano-machado)
+
+  [Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Problema dos Metrôs de Paris
     Suponha que queremos construir um sistema para auxiliar um usuário do metrô de
@@ -61,7 +62,7 @@
     operadores e função de avaliação para Busca heurística com A*.
   - [Solução](https://github.com/paodealho404/ai/tree/main/paris)
 
-[Voltar ao topo](#inteligência-artificial---aydano-machado)
+  [Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Problema do Caixeiro Viajante
     Um caixeiro viajante precisa visitar 10 cidades do interior de Pernambuco. Ele pede a
@@ -80,7 +81,8 @@
     inicial deve ser mantida, uma vez que o caixeiro mora lá ! A rota é fechada (ele volta
     à cidade de origem no final).   
   - [Solução](https://github.com/paodealho404/ai/tree/main/caixeiro)
-[Voltar ao topo](#inteligência-artificial---aydano-machado)
+
+  [Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Jogo para dois jogadores
     Escolha um jogo para dois jogadores (ex.: jogo da velha, othelo, damas, xadrez, etc.) e
@@ -89,10 +91,11 @@
     Jogo Escolhido: Jogo da Velha.
     Descrição: Analisando o número de possibilidades de forma simplista, existem 362.880 (ou 9!) maneiras de se dispor a cruz e o círculo no tabuleiro, sem considerar jogadas vencedoras. Quando consideramos as combinações vencedoras, existem 255.168 jogos possíveis. Como não existe estratégia vencedora no jogo da velha, conquistar um triângulo depende de um erro do adversário. Entretanto, algumas delas são definidas através de uma única jogada do adversário. Mais informações disponíveis em: - [Wikipédia](https://pt.wikipedia.org/wiki/Jogo_da_velha)
   - [Solução](https://github.com/paodealho404/ai/tree/main/minimax)
-[Voltar ao topo](#inteligência-artificial---aydano-machado)
+
+  [Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Informações do Autor
 
 - Github - [Pedro H. B. Nascimento](https://github.com/paodealho404)
 - Email - [Pedro](phbn@ic.ufal.br)
-[Voltar ao topo](#inteligência-artificial---aydano-machado)
+  [Voltar ao topo](#inteligência-artificial---aydano-machado)
