@@ -7,27 +7,28 @@
 
 ---
 - [Inteligência Artificial - Aydano Machado](#inteligência-artificial---aydano-machado)
+  - [- Informações do Autor](#--informações-do-autor)
   - [Requisitos Mínimos para Execução](#requisitos-mínimos-para-execução)
   - [Para informações sobre como executar:](#para-informações-sobre-como-executar)
   - [Problema dos Missionários](#problema-dos-missionários)
+  - [Voltar ao topo](#voltar-ao-topo)
   - [Problema dos Metrôs de Paris](#problema-dos-metrôs-de-paris)
-  - [- Solução](#--solução)
+  - [Voltar ao topo](#voltar-ao-topo-1)
   - [Problema do Caixeiro Viajante](#problema-do-caixeiro-viajante)
-  - [- Solução](#--solução-1)
+  - [Voltar ao topo](#voltar-ao-topo-2)
   - [Jogo para dois jogadores](#jogo-para-dois-jogadores)
-  - [- Solução](#--solução-2)
+  - [Voltar ao topo](#voltar-ao-topo-3)
   - [Informações do Autor](#informações-do-autor)
-
 ---
 
 ## Requisitos Mínimos para Execução
     Para executar os algoritmos é necessário ter  previamente instalado e configurado o GCC
     (Compilador para linguagem C).
-[Voltar ao topo](#Inicio)
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 ## Para informações sobre como executar: 
     Dirija-se ao subdiretório do problema desejado, lá haverá mais informações sobre o processo 
     de compilar e executar o código.
-[Voltar ao topo](#Inicio)
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 
 ---
 ## Problema dos Missionários
@@ -42,8 +43,7 @@
     apropriado. É boa idéia verificar a existência de estados repetidos?
   - [Solução](https://github.com/paodealho404/ai/tree/main/missionarios)
 
-[Voltar ao topo](#Inicio)
-
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Problema dos Metrôs de Paris
     Suponha que queremos construir um sistema para auxiliar um usuário do metrô de
@@ -61,6 +61,8 @@
     Formule e implemente este problema em termos de estado inicial, estado final,
     operadores e função de avaliação para Busca heurística com A*.
   - [Solução](https://github.com/paodealho404/ai/tree/main/paris)
+
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Problema do Caixeiro Viajante
     Um caixeiro viajante precisa visitar 10 cidades do interior de Pernambuco. Ele pede a
@@ -80,6 +82,8 @@
     à cidade de origem no final).
     
   - [Solução](https://github.com/paodealho404/ai/tree/main/caixeiro)
+  
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Jogo para dois jogadores
     Escolha um jogo para dois jogadores (ex.: jogo da velha, othelo, damas, xadrez, etc.) e
@@ -89,10 +93,12 @@
     Descrição: Analisando o número de possibilidades de forma simplista, existem 362.880 (ou 9!) maneiras de se dispor a cruz e o círculo no tabuleiro, sem considerar jogadas vencedoras. Quando consideramos as combinações vencedoras, existem 255.168 jogos possíveis. Como não existe estratégia vencedora no jogo da velha, conquistar um triângulo depende de um erro do adversário. Entretanto, algumas delas são definidas através de uma única jogada do adversário. Mais informações disponíveis em: - [Wikipédia](https://pt.wikipedia.org/wiki/Jogo_da_velha)
     
   - [Solução](https://github.com/paodealho404/ai/tree/main/minimax)
+
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Informações do Autor
 
 - Github - [Pedro H. B. Nascimento](https://github.com/paodealho404)
 - Email - [Pedro](phbn@ic.ufal.br)
 
-[Voltar ao topo](#Inicio)
+[Voltar ao topo](#inteligência-artificial---aydano-machado)
