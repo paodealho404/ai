@@ -87,7 +87,8 @@
     Jogo Escolhido: Jogo da Velha.
     Descrição: Analisando o número de possibilidades de forma simplista, existem 362.880 (ou 9!) maneiras de se dispor a cruz e o círculo no tabuleiro, sem considerar jogadas vencedoras. Quando consideramos as combinações vencedoras, existem 255.168 jogos possíveis. Como não existe estratégia vencedora no jogo da velha, conquistar um triângulo depende de um erro do adversário. Entretanto, algumas delas são definidas através de uma única jogada do adversário. Mais informações disponíveis em: - [Wikipédia](https://pt.wikipedia.org/wiki/Jogo_da_velha)
   - [Solução](https://github.com/paodealho404/ai/tree/main/minimax)
-  [Voltar ao topo](#inteligência-artificial---aydano-machado)
+  
+  - [Voltar ao topo](#inteligência-artificial---aydano-machado)
 ---
 ## Informações do Autor
 
