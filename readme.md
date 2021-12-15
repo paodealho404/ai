@@ -7,7 +7,7 @@
 
 ---
 - [Inteligência Artificial - Aydano Machado](#inteligência-artificial---aydano-machado)
-  - [- Informações do Autor](#--informações-do-autor)
+  - [Informações do Autor](#--informações-do-autor)
   - [Requisitos Mínimos para Execução](#requisitos-mínimos-para-execução)
   - [Para informações sobre como executar:](#para-informações-sobre-como-executar)
   - [Problema dos Missionários](#problema-dos-missionários)
